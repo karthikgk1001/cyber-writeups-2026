@@ -24,9 +24,7 @@ http://target.ine.local/robots.txt
 
 Reviewing the contents of this file reveals the location needed to obtain the first flag.
 
-### Screenshot
-![[Pasted image 20260606234337.png]]
-![Flag 1 Screenshot](https://chatgpt.com/c/INSERT_SCREENSHOT_HERE)
+
 
 ---
 
@@ -57,9 +55,6 @@ nmap -sCV -A -O target.ine.local
 
 The scan output reveals the web application and its version, which corresponds to the second flag.
 
-### Screenshot
-![[Pasted image 20260606234356.png]]
-![Flag 2 Screenshot](https://chatgpt.com/c/INSERT_SCREENSHOT_HERE)
 
 ---
 
@@ -104,9 +99,6 @@ http://target.ine.local/wp-content/uploads/
 
 reveals the location containing the third flag.
 
-### Screenshot
-![[Pasted image 20260606234435.png]]
-![Flag 3 Screenshot](https://chatgpt.com/c/INSERT_SCREENSHOT_HERE)
 
 ---
 
@@ -130,13 +122,6 @@ cat filename.bak
 
 The contents reveal the fourth flag.
 
-### Screenshot
-![[Pasted image 20260606234451.png]]
-![Backup File Discovery](https://chatgpt.com/c/INSERT_SCREENSHOT_HERE)
-![[Pasted image 20260606234503.png]]
-### Screenshot
-![[Pasted image 20260606234511.png]]
-![Flag 4 Screenshot](https://chatgpt.com/c/INSERT_SCREENSHOT_HERE)
 
 ---
 
@@ -170,14 +155,12 @@ This command recursively searches all mirrored files for occurrences of "FLAG5".
 
 The output reveals the location of the final flag.
 
-### Screenshot
-![[Pasted image 20260606234527.png]]
-![Flag 5 Discovery](https://chatgpt.com/c/INSERT_SCREENSHOT_HERE)
+
 
 ---
 
 # Conclusion
-![[Pasted image 20260606234606.png]]
+
 
 By combining:
 
